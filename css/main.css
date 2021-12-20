@@ -60,6 +60,7 @@ header .buttons {
     background: url("../imgs/about.jpg") no-repeat;
     background-size: 100% 100%;
     background-position: center;
+    /* background-color: #482220; */
     height: calc(100% - 100px);
     width: 100%;
     font-size: 24px;
@@ -190,7 +191,7 @@ figure audio {
         font-size: 20px;
     }
     figure audio {
-        width: 250px;
+        width: 200px;
         height: 50px;
     }
 }
@@ -216,7 +217,13 @@ figure audio {
         height: 200px;
     }
     figure audio {
-        width: 200px;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about-content .item img {
+        width: 130px;
     }
 }
 
@@ -227,6 +234,7 @@ figure audio {
         font-size: 14px;
         padding: 0 12px;
     }
+
     .media-content img {
         width: 250px;
         height: 250px;
